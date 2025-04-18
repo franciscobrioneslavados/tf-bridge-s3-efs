@@ -1,9 +1,0 @@
-aws_region           = "us-east-1"
-vpc_cidr             = "10.100.0.0/23"
-availability_zone    = "us-east-1a"
-environment          = "sbx"
-force_destroy_bucket = true
-managed_by           = "Terraform"
-owner                = "Francisco Briones"
-project              = "poc-s3-efs"
-function_name        = "s3-to-efs-function"
