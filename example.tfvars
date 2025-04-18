@@ -1,0 +1,9 @@
+aws_region           = ""
+vpc_cidr             = ""
+availability_zone    = ""
+environment          = ""
+force_destroy_bucket = true
+managed_by           = ""
+owner                = ""
+project              = ""
+function_name        = ""

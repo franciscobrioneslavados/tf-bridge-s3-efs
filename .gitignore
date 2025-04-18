@@ -1,0 +1,21 @@
+# Ignorar archivos de configuración de Terraform con variables sensibles
+terraform.tfvars
+
+# Ignorar archivos generados por Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+tfplan
+
+# Ignorar archivos de logs y salidas temporales
+crash.log
+*.tfplan
+*.log
+
+# Ignorar archivos de credenciales de AWS (si están en el proyecto)
+*.pem
+*.key
+
+test_file.txt
+lambda_function.zip
